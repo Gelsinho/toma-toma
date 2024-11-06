@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Chat Django</title>
+    <link rel="stylesheet" href="/static/chat/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>>Meu Chat Django</h1>
+    </header>
+    <nav>
+        <a href="/">Início</a>
+        <a href="/sobre">Sobre</a>
+        <a href="/contato">Contato</a>
+    </nav>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2024 Joca da Silva.</p>
+    </footer>
+</body>
+</html>
